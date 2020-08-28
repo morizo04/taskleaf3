@@ -1,24 +1,80 @@
-# README
+2020/08/28
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+アプリケーション情報
+アプリケーション概要
+会員制の市場価値を高めるアプリを制作中です。
 
-Things you may want to cover:
+開発環境
+Ruby/Ruby on Rails/Postgresql/Github/Visual Studio Code
 
-* Ruby version
 
-* System dependencies
+機能紹介
+CRUD機能を用いてのタスク管理機能
 
-* Configuration
+ログイン、ログアウト機能
 
-* Database creation
+ユーザーの作成機能(管理者権限を持ってる人のみ)
 
-* Database initialization
+ログイン、ログアウト機能
 
-* How to run the test suite
+タスク検索機能
 
-* Services (job queues, cache servers, search engines, etc.)
+タスクソート機能
 
-* Deployment instructions
+CSV形式でファイルのインポート/エクスポート機能
 
-* ...
+ページネーション機能
+
+
+
+
+各機能の詳細
+CRUD機能を用いてのタスク管理機能
+   概要
+　　　タスクを
+  
+    担当内容
+         ヘッダー、フッターの作成しました
+　　 モデルのwebページを参照にビューの作成しました
+
+
+ユーザー情報及び住所情報の登録
+　概要 
+    　 ウィザード形式でユーザー情報の登録と住所情報の登録をを行えるようにしました
+    担当 内容
+      Gem ’devise’のインストール しました
+      userモデル、profileモデル、sendding_destinationsモデルの作成、マイグレーションの実施を実地しますした
+     deviseによるusersコントローラーの作成しました
+     deviseによるviewsの作成 しました
+     registrations_controller.rbの編集 しました
+     フォーム入力用のビューページの作成 しました
+    userモデルとaddressモデルの単体テストの作成と実施 しました
+
+ログイン、ログアウト機能 
+  概要 
+    ログイン用のビューを作成 しました
+    ログアウト完了を通知するビューを表示 しました
+  担当 
+    ログイン用ビューの作成 しました
+    ログイン状態によってヘッダーの表示変更 しました
+
+新規投稿商品一覧ページ
+  概要 
+     トップページの新規投稿商品に最新の商品レコードを表示しました
+     トップページのアーカイバに商品レコードを表示 しました
+     新着順に商品が一覧表示されるページ を作成しました
+担当 
+    Items/index.html.hamlファイルにて新規投稿商品、アーカイバのサーバーサイドを実装しました
+    新規投稿商品一覧ビューを作成しました
+
+自身が出品した商品のみ削除機能
+    概要
+出品した商品を削除できるようにしました
+　担当
+　　itemsコントローラーでdestroyアクションの定義しました
+　　出品した商品の詳細ページで商品の削除のサーバーサイドを作成しました
+
+
+
+今後実装したいこと
+
