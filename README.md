@@ -48,7 +48,7 @@ Ruby/Ruby on Rails/Postgresql/Github/Visual Studio Code
 ### ログイン、ログアウト機能
   概要  
   ログイン用のビューを作成しました  
-https://gyazo.com/19117780ccc9ef309ddea4b00c96e5d8
+![image](https://user-images.githubusercontent.com/67141130/92221857-140e0b00-eed9-11ea-8557-1c2c305813bf.png)
 
 
 ### ユーザーの作成機能(管理者権限を持ってる人のみ)
