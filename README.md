@@ -40,7 +40,7 @@ Ruby/Ruby on Rails/Postgresql/Github/Visual Studio Code
   概要  
   タスクを投稿、編集、削除できるようにしました  
   以下のようなビューとなっております  
-![image](https://user-images.githubusercontent.com/67141130/92218724-82040380-eed4-11ea-8d82-b6e77d647ffc.png)
+![image](https://user-images.githubusercontent.com/67141130/92218724-82040380-eed4-11ea-8d82-b6e77d647ffc.png)    
 
 
 
@@ -48,13 +48,14 @@ Ruby/Ruby on Rails/Postgresql/Github/Visual Studio Code
 ### ログイン、ログアウト機能
   概要  
   ログイン用のビューを作成しました  
-![image](https://user-images.githubusercontent.com/67141130/92221857-140e0b00-eed9-11ea-8557-1c2c305813bf.png)
+![image](https://user-images.githubusercontent.com/67141130/92221857-140e0b00-eed9-11ea-8557-1c2c305813bf.png)    
 
 
 ### ユーザーの作成機能(管理者権限を持ってる人のみ)
 　概要  
   ユーザーモデルでadminのカラムを持っているユーザーのみ以下のように作成されているユーザーを一覧で確認でき、作成・編集・削除ができるようになっています  
-https://gyazo.com/1d89c3d2068bcb2a79eebd403d4d8e70
+![image](https://user-images.githubusercontent.com/67141130/92222067-62bba500-eed9-11ea-85f9-b07c3d47f310.png)    
+
 
     
   adminを持ってないユーザーがログインすると以下のように表示され、ヘッダーにユーザー一覧が表示されないようになっています  
