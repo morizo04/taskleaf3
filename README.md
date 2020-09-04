@@ -40,7 +40,8 @@ Ruby/Ruby on Rails/Postgresql/Github/Visual Studio Code
   概要  
   タスクを投稿、編集、削除できるようにしました  
   以下のようなビューとなっております  
-https://gyazo.com/48afcbd3137e1be4f262add1c9584c33
+![image](https://user-images.githubusercontent.com/67141130/92218724-82040380-eed4-11ea-8d82-b6e77d647ffc.png)
+
 
 
 
