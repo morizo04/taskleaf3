@@ -59,7 +59,8 @@ Ruby/Ruby on Rails/Postgresql/Github/Visual Studio Code
 
     
   adminを持ってないユーザーがログインすると以下のように表示され、ヘッダーにユーザー一覧が表示されないようになっています  
-  https://gyazo.com/eefcfaed4c9ec08c69a8c9e69d1fdb69
+ ![image](https://user-images.githubusercontent.com/67141130/92222934-b4b0fa80-eeda-11ea-9ef7-f71d964cd4e9.png)
+
     
 
 
