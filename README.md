@@ -83,7 +83,8 @@ Ruby/Ruby on Rails/Postgresql/Github/Visual Studio Code
 
    
    また以下の写真のように適切なcsvファイルを選択しインポートするとcsvファイルからタスクを作成することができます  
-   https://gyazo.com/bff24c2e5b308e7e14474f2e8e3f33a4
+![image](https://user-images.githubusercontent.com/67141130/92301872-40418e80-efa2-11ea-995e-a7f9fdaada7a.png)    
+
    
  ### ページネーション機能
  　概要   
