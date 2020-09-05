@@ -71,7 +71,7 @@ Ruby/Ruby on Rails/Postgresql/Github/Visual Studio Code
  ### タスクソート機能
  　概要  
    以下の写真にてNameを押していただくと名前の順で昇順・降順にタスクが表示されます  
-   https://gyazo.com/48afcbd3137e1be4f262add1c9584c33
+   ![image](https://user-images.githubusercontent.com/67141130/92299948-e3d67300-ef91-11ea-8942-016ab917c394.png)
    
 
 ### CSV形式でファイルのインポート/エクスポート機能
