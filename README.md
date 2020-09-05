@@ -76,8 +76,8 @@ Ruby/Ruby on Rails/Postgresql/Github/Visual Studio Code
 
 ### CSV形式でファイルのインポート/エクスポート機能
 　概要  
-  以下の写真よりエクスポートを押すとcsvファイルがダウンロードできます
-https://gyazo.com/7b9611af9eb3d1c7de0c422a49de1eb5  
+  以下の写真よりエクスポートを押すとcsvファイルがダウンロードできます  
+![image](https://user-images.githubusercontent.com/67141130/92299974-0bc5d680-ef92-11ea-822d-18d980834b73.png)    
 　そうするとログインしているユーザーのタスクモデルが以下のような形でcsv形式で入手できます
    
    また以下の写真のように適切なcsvファイルを選択しインポートするとcsvファイルからタスクを作成することができます  
