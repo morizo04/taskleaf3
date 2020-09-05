@@ -71,14 +71,16 @@ Ruby/Ruby on Rails/Postgresql/Github/Visual Studio Code
  ### タスクソート機能
  　概要  
    以下の写真にてNameを押していただくと名前の順で昇順・降順にタスクが表示されます  
-   ![image](https://user-images.githubusercontent.com/67141130/92299948-e3d67300-ef91-11ea-8942-016ab917c394.png)
+   ![image](https://user-images.githubusercontent.com/67141130/92299948-e3d67300-ef91-11ea-8942-016ab917c394.png)    
    
 
 ### CSV形式でファイルのインポート/エクスポート機能
 　概要  
   以下の写真よりエクスポートを押すとcsvファイルがダウンロードできます  
-![image](https://user-images.githubusercontent.com/67141130/92299974-0bc5d680-ef92-11ea-822d-18d980834b73.png)    
-　そうするとログインしているユーザーのタスクモデルが以下のような形でcsv形式で入手できます
+![image](https://user-images.githubusercontent.com/67141130/92299974-0bc5d680-ef92-11ea-822d-18d980834b73.png)      
+　そうするとログインしているユーザーのタスクモデルが以下のような形でcsv形式で入手できます  
+ ![image](https://user-images.githubusercontent.com/67141130/92300853-42531f80-ef99-11ea-9f95-968a973734c0.png)    
+
    
    また以下の写真のように適切なcsvファイルを選択しインポートするとcsvファイルからタスクを作成することができます  
    https://gyazo.com/bff24c2e5b308e7e14474f2e8e3f33a4
