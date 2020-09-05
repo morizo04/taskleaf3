@@ -90,7 +90,8 @@ Ruby/Ruby on Rails/Postgresql/Github/Visual Studio Code
  　概要   
     gem 'kaminari'を用いて実装しました  
     以下の写真のように25タスク毎に1ページが作成されるようになっていて、データが膨大になった際のブラウザの読み込み速度を落とさないよう配慮しました  
-    https://gyazo.com/dc0647ac8c51796f9d598558dd1a0595
+![image](https://user-images.githubusercontent.com/67141130/92301895-65ce9800-efa2-11ea-8b9a-078ffd2b2bc4.png)
+
 
 
 ## 今後実装したいこと
