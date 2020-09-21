@@ -6,6 +6,10 @@ class Admin::UsersController < ApplicationController
     @users = User.all
   end
 
+  def mypage
+    @user = current_user
+  end
+
   def show
   end
 

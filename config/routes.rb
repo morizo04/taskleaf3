@@ -3,9 +3,15 @@ Rails.application.routes.draw do
   post '/login', to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
   namespace :admin do
-    resources :users
+    resources :users do
+      get 'mypage', to: 'users#mypage'
+    end
   end
-  root to: 'tasks#index'
+
+  resources :tweets
+  
+  # root to: 'tasks#index'
+  root to: 'admin/users#mypage'
   resources :tasks do
     post :confirm, action: :confirm_new, on: :new
     post :import, on: :collection

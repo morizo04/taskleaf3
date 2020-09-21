@@ -1,0 +1,12 @@
+.name{
+  display: flex;
+  margin: 30px auto;
+  width: 200px;
+}
+
+.content{
+  &__main{
+    margin: 30px auto;
+    width: 200px;
+  }
+}

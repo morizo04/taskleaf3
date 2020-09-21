@@ -1,0 +1,65 @@
+// Place all the styles related to the tweets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.post{
+  margin: 20px auto;
+  height: 40px;
+  width: 120px;
+  border: solid 1px black;
+  &__text{
+    text-align: center;
+    line-height: 40px;
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+}
+
+.content{
+  margin: 20px;
+  &__post{
+    height: 180px;
+    width: 300px;
+    margin: 10px;
+    background-size: cover;
+  }
+}
+
+.confirm{
+  height: calc(100vh - 56px);
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  width: 70vh;
+  display: block;
+  margin:  10px 0;
+  &__text{
+    height: 250px;
+    width: 70vh;
+    overflow: scroll;
+  }
+}
+
+.details{
+  height: calc(100vh - 56px);
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__summary{
+    background-color: #ffffff;
+    width: 80vh;
+  }
+  &__text{
+    background-color: #ffffff;
+    height: 250px;
+    width: 80vh;
+    margin-top: 20px;
+    overflow: scroll;
+  }
+}

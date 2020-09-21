@@ -83,3 +83,6 @@ production:
   database: taskleaf3_production
   username: taskleaf3
   password: <%= ENV['TASKLEAF3_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
